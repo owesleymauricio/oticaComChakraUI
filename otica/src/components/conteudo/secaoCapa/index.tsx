@@ -4,7 +4,12 @@ import React from 'react'
 
 function SecaoCapa() {
   return (
-    <Box as="section" position="relative">
+    <Box as="section"
+     position="relative"
+      maxWidth={'1200px'} 
+      marginLeft={'auto'}
+      marginRight={'auto'}
+      >
     {/* Div que contém a imagem de fundo e o texto */}
     <Box
         backgroundImage="/assets/capa.png"  // URL da sua imagem de fundo

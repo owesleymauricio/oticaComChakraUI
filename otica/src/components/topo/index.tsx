@@ -9,6 +9,9 @@ function Topo() {
         <Flex alignItems="center"
         justify={'space-between'}
         margin={'20px'}
+        maxW={'900px'}
+        marginLeft={'auto'}
+        marginRight={'auto'}
         >
         <Image src='/assets/logo.png' 
         alt='logo' 
