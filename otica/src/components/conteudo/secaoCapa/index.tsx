@@ -23,7 +23,7 @@ function SecaoCapa() {
         {/* Div que contém o texto */}
         <Box position="absolute" top="50%" left="30%" transform="translate(-50%, -50%)" textAlign="center">
             <Text color="white" fontSize="xl">Preços baixos em</Text> {/* Texto "Preços baixos em" */}
-            <Heading as="h1" size="lg" color="white">Óculos de grau e de sol</Heading> {/* Título "Óculos de grau e de sol" */}
+            <Heading as="h1" marginLeft={'5px'} size="lg" color="white">Óculos de grau e de sol</Heading> {/* Título "Óculos de grau e de sol" */}
             <Text color="white" fontSize="xl">Você só encontra aqui</Text> {/* Texto "Você só encontra aqui" */}
         </Box>
     </Box>
