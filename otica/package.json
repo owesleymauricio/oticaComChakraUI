@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:dist": "next build && next export && mkdir -p dist && cp -r out/* dist/"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
