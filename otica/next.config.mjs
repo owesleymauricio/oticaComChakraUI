@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
+const nextConfig = {
+    distDir: 'dist', // Configuração para a pasta de saída
+  };
+  
 export default nextConfig;
+  
