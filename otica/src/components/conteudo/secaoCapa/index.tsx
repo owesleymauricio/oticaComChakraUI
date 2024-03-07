@@ -12,7 +12,7 @@ function SecaoCapa() {
       >
     {/* Div que contém a imagem de fundo e o texto */}
     <Box
-        backgroundImage="/assets/capa.png"  // URL da sua imagem de fundo
+        backgroundImage="assets/capa.png"  // URL da sua imagem de fundo
         backgroundSize="cover"
         backgroundPosition="center"
         width="100%"
