@@ -1,8 +1,9 @@
 
-import React, { useEffect, useState } from "react";
-import Conteudo from "@/components/conteudo";
+import React from "react";
 
 import Topo from "@/components/topo";
+import Conteudo from "@/components/conteudo";
+import Rodape from "@/components/rodape";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <Topo />
       <Conteudo />
+      <Rodape />
     </>
   );
 }

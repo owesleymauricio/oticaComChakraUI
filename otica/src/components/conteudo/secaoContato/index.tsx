@@ -14,9 +14,11 @@ function SecaoContato() {
     <>
       <Flex
         maxW={'1200px'}
-        height={'400px'}
         bgGradient='linear( #03081d, #041025)'
         flexDir={'column'}
+        marginRight={'auto'}
+        marginLeft={'auto'}
+       
       >
         <Heading
           color={'white'}
@@ -45,7 +47,7 @@ function SecaoContato() {
           columns={{ base: 1, sm: 2 }}
           spacing={4}
           mt={'20px'}
-
+          mb={'30px'}
           bgGradient='linear( #03081d, #041025)'
         >
 
@@ -120,7 +122,7 @@ function SecaoContato() {
             >
 
               <Image src='/assets/email.png'
-marginLeft={'60px'}
+                marginLeft={'60px'}
                 color={'white'}
                 alt='email'
                 width={10}
@@ -145,7 +147,7 @@ marginLeft={'60px'}
             flexDir={'column'}
             alignItems={'center'}
             justifyContent={'center'}
-float={'left'}
+            float={'left'}
           >
             <Heading
               as='h3'
@@ -228,22 +230,8 @@ float={'left'}
 
           </Box>
 
-
         </SimpleGrid>
-        <Box
-      as="footer"
-      width="100%"
-      bgGradient='linear( #03081d, #041025)'
-      color="white"
-      py="10"
-    
-      px={{ base: "4", md: "8" }}
-      textAlign="center"
-    >
-      <Text>
-        &copy; 2022 Óticas Vida. - Todos os direitos reservados.
-      </Text>
-    </Box>
+
       </Flex>
     </>
   )
