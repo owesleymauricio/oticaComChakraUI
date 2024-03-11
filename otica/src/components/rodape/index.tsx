@@ -10,9 +10,8 @@ function Rodape() {
       width="100%"
       bgGradient='linear( #03081d, #041025)'
       color="white"
-      py="10"
+      py="4"
     
-      px={{ base: "4", md: "8" }}
       textAlign="center"
     >
       <Text>
